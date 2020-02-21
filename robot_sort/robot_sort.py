@@ -96,8 +96,25 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
-        # Fill this out
-        pass
+
+        # Using a variant of selection sort
+
+        """
+        1. Find the smallest item and exchange it with 1st entry
+
+        -call robot.swap_item() to set robot._item as the 1st entry
+        -move robot to the right to access rest of the list
+        -keep comparing currently held item by robot till you find an item that
+        is smaller than current entry in robot._item
+        - if found, call robot.swap_item() to swap else do nothing
+        - move to the next item with move right
+        - Repeat the above process with the second entry
+        -continue swapping items till the list is sorted
+
+
+        """
+
+
 
 
 if __name__ == "__main__":

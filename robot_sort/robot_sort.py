@@ -96,6 +96,7 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
+
         # Using a variant of selection sort
 
         """
